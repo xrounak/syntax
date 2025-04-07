@@ -6,7 +6,7 @@ const Loader = () => {
     <StyledWrapper>
       <div className="floating-text">
         Work is in progress. You can contact my boss –{' '}
-        <a href="/contact">Contact Us</a>
+        <a href="https://www.instagram.com/unknowngmr02/">Contact Us</a>
       </div>
 
       <div className="character-cube-wrapper">
