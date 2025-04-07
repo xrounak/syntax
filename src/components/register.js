@@ -15,13 +15,13 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      // Correct method call for creating a user
+      
       await createUserWithEmailAndPassword(auth, email, password);
       const user = auth.currentUser;
       console.log(user);
-      navigate("/");  // Redirect to home or desired page
+      navigate("/");
     } catch (err) {
-      setError(err.message);  // Display any errors that occur during registration
+      setError(err.message); 
     }
   }
 
